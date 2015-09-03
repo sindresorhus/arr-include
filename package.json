@@ -1,0 +1,37 @@
+{
+  "name": "arr-include",
+  "version": "0.0.0",
+  "description": "Include only certain items in an array",
+  "license": "MIT",
+  "repository": "sindresorhus/arr-include",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "array",
+    "arr",
+    "list",
+    "include",
+    "whitelist",
+    "with",
+    "items",
+    "elements",
+    "values",
+    "filter"
+  ],
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
