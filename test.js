@@ -1,11 +1,9 @@
-'use strict';
-var test = require('ava');
-var fn = require('./');
+import test from 'ava';
+import m from './';
 
-test(function (t) {
-	t.same(fn(['a', 'b', 'c'], ['b']), ['b']);
-	t.same(fn(['a', 'b'], ['a', 'x']), ['a']);
-	t.same(fn(['a'], ['b']), []);
-	t.same(fn(null, ['a']), []);
-	t.end();
+test(t => {
+	t.same(m(['a', 'b', 'c'], ['b']), ['b']);
+	t.same(m(['a', 'b'], ['a', 'x']), ['a']);
+	t.same(m(['a'], ['b']), []);
+	t.same(m(null, ['a']), []);
 });
