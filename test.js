@@ -2,8 +2,8 @@ import test from 'ava';
 import m from './';
 
 test(t => {
-	t.same(m(['a', 'b', 'c'], ['b']), ['b']);
-	t.same(m(['a', 'b'], ['a', 'x']), ['a']);
-	t.same(m(['a'], ['b']), []);
-	t.same(m(null, ['a']), []);
+	t.deepEqual(m(['a', 'b', 'c'], ['b']), ['b']);
+	t.deepEqual(m(['a', 'b'], ['a', 'x']), ['a']);
+	t.deepEqual(m(['a'], ['b']), []);
+	t.deepEqual(m(null, ['a']), []);
 });
