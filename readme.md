@@ -1,4 +1,4 @@
-# arr-include [![Build Status](https://travis-ci.org/sindresorhus/arr-include.svg?branch=master)](https://travis-ci.org/sindresorhus/arr-include)
+# arr-include
 
 > Include only certain items in an array
 
