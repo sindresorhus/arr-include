@@ -1,10 +1,7 @@
-'use strict';
-module.exports = function (input, include) {
-	if (!Array.isArray(input)) {
-		return [];
+export default function arrayInclude(array, inclusions) {
+	if (!Array.isArray(array)) {
+		throw new TypeError(`Expected an array, got \`${typeof array}\``);
 	}
 
-	return input.filter(function (x) {
-		return include.indexOf(x) !== -1;
-	});
-};
+	return array.filter(item => inclusions.includes(item));
+}
