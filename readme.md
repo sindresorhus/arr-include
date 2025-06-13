@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-$ npm install arr-include
+```sh
+npm install arr-include
 ```
 
 ## Usage
@@ -19,4 +19,4 @@ arrayInclude(['a', 'b', 'c'], ['b', 'x']);
 
 ## Related
 
-- [arr-exclude](https://github.com/sindresorhus/arr-exclude) - Exclude certain items from an array
+- [array-exclude](https://github.com/sindresorhus/array-exclude) - Exclude certain items from an array
